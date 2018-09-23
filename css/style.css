@@ -1,0 +1,200 @@
+.bg-dark-m{
+	background:#111A2B;
+}
+
+.carousel-item{
+	height:550px;
+}
+
+.carousel-img-1{
+	background-image:url(../img/1.jpg);
+	background-size:cover;
+}
+
+
+.carousel-img-2{
+	background-image:url(../img/2.jpg);
+	background-size:cover;
+}
+.carousel-img-3{
+	background-image:url(../img/3.jpg);
+	background-size:cover;
+}
+
+.carousel-indicators li{
+	background-color:#1ac6ff;
+	width:30px;
+	height:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.before_effect a{
+	color:white;
+	position:relative;
+	z-index:5;
+	overflow:hidden;
+	text-decoration:none;
+	float:left; /*- Imp-*/
+	padding-left:3px;
+}
+.before_effect a:hover{
+	color:#ffcccc;
+}
+.before_effect a:before{
+	content: "";
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 5%;
+    top: 33px;
+    left: -150px;
+    transition: 0.3s all ease;
+    z-index: -5;
+}
+.nav_before_effect:hover .before_effect a:before{
+	left:0px;
+}
+
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-m{
+	max-width:300px;
+}
+
+.btn-btm{
+	margin-bottom: -43px;
+}
+
+.text_hover{
+	background:#f2f2f2;
+	padding:10px 20px 10px 20px;
+	border-radius:5px;
+}
+
+.text_hover:hover{
+	background:#d9d9d9;
+}
+
+.card-webhosting{
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+.card-webhosting:hover{
+	border: 1px solid #3377ff;
+}
+
+.btn-getstarted{
+	box-shadow: 1px 1px 11px -3px rgba(54,47,54,1);
+}
+
+.img-bac{
+	background:#EAF2FE;
+	width:78px;
+	height:78px;
+	padding:13px;
+	border:2px solid #ffffff;
+	border-radius:4px;
+	box-shadow: 1px 2px 10px -1px rgba(54,47,54,1);
+	
+}
+
+.bg-muted-m{
+	background:#EAF2FE;
+}
+
+.mtm{
+	margin-top:-45px;
+}
+
+
+
+#footertop .navbar-nav li{
+	margin-top:12px;
+}
+
+#footertop .navbar-nav li a{
+	color: #8493B0;
+	text-decoration:none;
+}
+
+#footertop .navbar-nav li a:hover{
+	color: #FFF;
+	text-decoration:none;
+}
+
+#footertop p{
+	color: #8493B0;
+	margin-bottom:-4px;
+}
+
+.social-btn a{
+	font-size:30px;
+	color:#8493B0;
+	text-decoration:none;
+}
+
+.social-btn a:hover{
+	color:#FFF;
+}
+
+hr{
+	border-top:1px solid #8493B0;
+}
+#footer{
+	color: #8493B0;
+}
+
+#footer a{
+	color: #8493B0;
+}
+
+.fa-arrow-circle-up{
+	font-size:30px;
+}
+
+.fa-arrow-circle-up:hover{
+	font-size:30px;
+	color:#fff;
+	cursor:pointer;
+}
+
+
+	
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: .5rem;
+    margin-left: .5rem;
+	padding-right: 0rem;
+	padding-left: 0rem;
+	
+}
+	
